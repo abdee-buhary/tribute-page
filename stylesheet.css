@@ -1,17 +1,44 @@
 #title{
-    text-align:center;
-    font-family:monospace;
-  }
-  
-  #image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;    
-  }
-  
-  #tribute-info{
-    text-align:center;
-  }
-  
-  
+  text-align:center;
+  font-family:monospace;
+}
+
+#image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40%;
+  height:auto;
+}
+
+#img-caption{
+  text-align:center;
+  font-style: italic;
+  font-family:monospace;
+}
+
+#tribute-info{
+  text-align:center;
+}
+
+#tribute-link{
+  font-weight:bold;
+}
+
+p{
+  text-align:center;
+}
+ 
+body{
+  background-color:#b3cccc;
+}
+
+#profile{
+  background-color:#c2d6d6;
+  justify-content: center;
+  height: auto;
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+}
+
